@@ -20,6 +20,15 @@ $file = fopen($ruta_archivo, 'w');
 if ($file) {
     // Escribir el contenido inicial en el archivo TXT
     fwrite($file, "Este es el contenido del archivo de nómina.\n");
+$rif="";
+fwrite($file,$rif."\n");
+    $nombre="Victor Adrian";
+    $apellido="Guillen Ramirez";
+    $nacionalidad="V";
+    $numero_de_cuenta="";
+    $identificacion="27905225";
+    $salario_total=12.98;
+    fwrite($file, $nacionalidad.$identificacion.$numero_de_cuenta .$salario_total.$apellido.$nombre. "\n");
     fwrite($file, "Fecha y hora de generación: " . date('Y-m-d H:i:s') . "\n");
 
     // Cerrar el archivo

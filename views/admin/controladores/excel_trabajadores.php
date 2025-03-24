@@ -7,9 +7,9 @@ use PDO;
 
 // Configuración de la base de datos
 $host = 'localhost';
-$db = 'nombre_de_tu_base_de_datos';
-$user = 'tu_usuario';
-$pass = 'tu_contraseña';
+$db = 'recursos_humanos';
+$user = 'root';
+$pass = '';
 
 try {
     // Conexión a la base de datos

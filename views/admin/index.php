@@ -15,6 +15,8 @@ include("../../conexion/conexion.php")
     <title>Pag principal</title>
 </head>
 <body>
+    <br>
+    <br>
     <?php
 
 include("menu.php")
@@ -44,7 +46,7 @@ include("menu.php")
 
                         <a href="#" class="card-link">Card link</a>
 
-                        <a href="#" class="card-link">Another link</a>
+                        <a href="personal_activo.php" class="card-link">Ver listado</a>
 
                     </div>
 
@@ -58,11 +60,11 @@ include("menu.php")
 
                     <div class="card-body">
 
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title">Personal activo</h5>
 
-                        <h6 class="card-subtitle mb-2 text-body-secondary">Personal Activo</h6>
+                        <h6 class="card-subtitle mb-2 text-body-secondary"></h6>
 
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <p class="card-text"> Aqui encontrara usted el listado de personas activas que actualmente trabajan para la institucion</p>
 
                         <a href="#" class="card-link">Card link</a>
 
@@ -105,8 +107,7 @@ include("menu.php")
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
-<script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
